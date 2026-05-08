@@ -17,14 +17,3 @@ function changeSlide(){
 }
 
 setInterval(changeSlide, 3000);
-
-// SCROLL BUTTON
-
-function scrollToContact(){
-
-  document.getElementById("contact")
-  .scrollIntoView({
-    behavior:"smooth"
-  });
-
-}
